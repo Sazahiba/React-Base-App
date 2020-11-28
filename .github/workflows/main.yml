@@ -42,4 +42,4 @@ jobs:
         run: npm install --global surge
   
       - name: Deploy to Surge 
-        run: surge ./build React_Base_App_class3.surge.sh --token ${{secrets.React_Base-App}}
+        run: surge ./build React_Base_App_class3.surge.sh --token ${{secrets.React_Base_App}}
